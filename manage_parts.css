@@ -1,0 +1,127 @@
+/* General Button Styling */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #90090b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d03939;
+}
+
+.btn:active {
+    background-color: #004085;
+}
+
+/* Action Buttons (Edit and Delete) */
+.action-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    text-align: center; /* Center content in the "Actions" column */
+}
+
+td a {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+/* Adjust Action Button column width */
+td a.edit-btn, td a.delete-btn {
+    width: auto;
+}
+
+/* Ensure "Actions" column is not too wide */
+td:last-child {
+    width: 150px;  /* Set fixed width for the actions column */
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #28a745;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}

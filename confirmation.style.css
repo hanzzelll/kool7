@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container to center the content */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Strong text (Payment Method) */
+strong {
+    font-weight: 600;
+    color: #444;
+}
+
+/* Order section */
+h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Rectangular button style for View Receipt */
+a.view-receipt-btn {
+    display: inline-block;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+a.view-receipt-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Button lift effect */
+}
+
+a.view-receipt-btn:active {
+    background-color: #004085;
+    transform: translateY(1px); /* Button press effect */
+}
